@@ -1,9 +1,7 @@
 library(ggforce)
 library(ggpmisc)
 
-# Read in all json files
-filenames <- list.files("~/Documents/R/Champion_data/data_lake/National/", pattern="*.json", full.names=TRUE) # this should give you a character vector, with each file name represented by an entry
-myJSON <- lapply(filenames, function(x) fromJSON(file=x)) # a list in which each element is one of your original JSON files
+#create emmpty data frame
 match_stats<- data.frame(matrix (ncol = 0, nrow =0))
 #run netball_match_function.R before running this line
 for (j in myJSON) {
