@@ -5,7 +5,7 @@ This model assumes you have already gathered the supernetball data from Supernet
 
 The more data you have to train your model the better it will be so consider adding in ANZP as well or even ANZ Premiership.
 
-The scripts are designed to be run in sequence after you've installed the required packages:
+The scripts are designed to be run in sequence after you've installed the required packages and added the upcoming fixture to the the fixture.csv file:
 
 ## First 
 run glicko.R to get team ratings.
