@@ -12,7 +12,7 @@ library(ggplot2)
 library(flipTime)
 
 # Read in all json files collected using superNetballR package
-filenames <- list.files("~/[insert_data_path]", pattern="*.json", full.names=TRUE) # this should give you a character vector, with each file name represented by an entry
+filenames <- list.files("data/", pattern="*.json", full.names=TRUE) # this should give you a character vector, with each file name represented by an entry
 myJSON <- lapply(filenames, function(x) fromJSON(file=x)) # a list in which each element is one of your original JSON files
 
 #create dataframe with same columns as output
