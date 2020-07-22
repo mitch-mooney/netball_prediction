@@ -8,7 +8,7 @@ The more data you have to train your model the better it will be so consider add
 The scripts are designed to be run in sequence after you've installed the required packages and added the upcoming fixture to the the fixture.csv file:
 
 ## First 
-run glicko.R to get team ratings.
+run glicko.R to get team ratings. I've added 2019 season in there to get you started.
 
 ## Second 
 run the netball_match_function.R to make organising the data easier.
