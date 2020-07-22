@@ -1,7 +1,7 @@
 # netball_prediction
 Running a deep learning model to predict netball matches
 
-This model assumes you have already gathered the supernetball data from SupernetballR https://github.com/SteveLane/superNetballR
+This model assumes you have already gathered the super netball or ANZ premiership data using SupernetballR https://github.com/SteveLane/superNetballR and saved the matches as JSON files in a folder.
 
 The more data you have to train your model the better it will be so consider adding in ANZP as well or even ANZ Premiership.
 
