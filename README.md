@@ -14,7 +14,7 @@ run glicko.R to get team ratings.
 run the netball_match_function.R to make organising the data easier.
 
 ## Third 
-run match_stats.R to merge ratings with match stats, here you can modify the input variables as well.
+run match_stats.R to merge ratings with match stats, here you can modify the input variables as well. It is important that in the fixture.csv file the result is 999 or blank and match numbers follow the previous match in the match_data dataframe.
 
 ## Fourth 
 run match_predictions.R to train a keras model and inpect the results.
